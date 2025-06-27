@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { IoIosLogOut } from "react-icons/io";
 import { useContext } from "react";
-import { UserContext } from "../context/userContext";
+import { UserContext } from "../../context/UserContext";
+
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { FaBars, FaTimes } from "react-icons/fa";

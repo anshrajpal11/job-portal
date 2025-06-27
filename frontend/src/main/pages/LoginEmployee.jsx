@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 import { Route, useNavigate, Link } from "react-router-dom";
-import { UserContext } from "../context/userContext";
+import { UserContext } from "../../context/UserContext";
 import { toast } from "react-toastify";
 
 const LoginEmployee = () => {
